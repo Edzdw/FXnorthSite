@@ -15,8 +15,8 @@ function Technology(props) {
 
     const [dataTitle] = useState(
         {
-            title: 'Our technology supports multiple platforms',
-            text: ' Cras molestie ullamcorper augue nec pulvinar. Ut suscipit tempor justo, sed aliquet eros ultricies eu. Nam mollis sapien ut sapien gravida sollicitudin. Mauris vel nisl quis dolor accumsan luctus.'
+            title: 'Our technology supports multiple trading stragety',
+            text: ' With our automated trading technology (EA), we believe in advancing the trading era and becoming a leading organization in the AI field '
         }
     )
 

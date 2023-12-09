@@ -18,7 +18,7 @@ function Project6(props) {
                             <div className="col-md-12">
                                 <div className="tf-title" data-aos="fade-up" data-aos-duration="800">
                                     <h2 className="title">
-                                        Completed Project
+                                         Our Currency Trading investment
                                     </h2>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@ function Project6(props) {
                                
                                 >
                                     {
-                                        data.slice(13,17).map(item => (
+                                        data.slice(13,19).map(item => (
                                             <SwiperSlide key={item.id}>
                                                 <div className="project-box-style5">
                                                     <span className="boder"></span>

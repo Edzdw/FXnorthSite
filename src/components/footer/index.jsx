@@ -39,7 +39,7 @@ function Footer(props) {
                         <div className="logo_footer">
                             <img src={require ("../../assets/images/logo/logo2.png")} alt="" />
                         </div>
-                        <p>A one-stop destination for web3 gaming.</p>
+                        <p>A great platform for investment trading EA</p>
                     </div>
                     <div className="widget">
                         <h5 className="widget-title">
@@ -48,15 +48,15 @@ function Footer(props) {
                         <ul className="widget-link contact">
                             <li>
                                 <p>Address</p>
-                                <Link to="#">1901 Thornridge Cir. Shiloh, Hawaii 81063</Link>
+                                <Link to="#">adress</Link>
                             </li>
                             <li>
                                 <p>Phone</p>
-                                <Link to="#">+33 7 00 55 57 60</Link>
+                                <Link to="#">Phone</Link>
                             </li>
                             <li className="email">
                                 <p>Email</p>
-                                <Link to="#">risebot@support.com</Link>
+                                <Link to="#">project@support.com</Link>
                             </li>
                         </ul>
                     </div>
@@ -65,9 +65,7 @@ function Footer(props) {
                             Support
                         </h5>
                         <ul className="widget-link">
-                            <li>
-                                <Link to="/connect">Connect Wallet</Link>
-                            </li>
+
                             <li>
                                 <Link to="/forgetPass">Forget Password</Link>
                             </li>
@@ -87,12 +85,12 @@ function Footer(props) {
                             <li>
                                 <Link to="/">Home</Link>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Link to="/project_list">Project</Link>
                             </li>
                             <li>
                                 <Link to="/blog_grid">Blog</Link>
-                            </li>
+                            </li> */}
                             <li>
                                 <Link to="/team_details">Our Team</Link>
                             </li>

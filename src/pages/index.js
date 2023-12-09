@@ -27,8 +27,8 @@ import PageFaqs from "./PageFaqs";
 
 const routes = [
   
-  { path: '/', component: <HomeOne />},
-  { path: '/home_v2', component: <HomeTwo />},
+  { path: '/', component: <HomeTwo />},
+  { path: '/home_v2', component: <HomeOne />},
   { path: '/home_v3', component: <HomeThree />},
   { path: '/project_v1', component: <Project1 />},
   { path: '/project_v2', component: <Project2 />},

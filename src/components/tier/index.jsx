@@ -12,7 +12,7 @@ function Tier(props) {
 
     const [dataTitle] = useState(
         {
-            title: 'Tier System',
+            title: 'Package System',
         }
     )
     return (
@@ -33,7 +33,7 @@ function Tier(props) {
                                         <div className="image-box">
                                             <div className="number">
                                                 <img src={require ("../../assets/images/backgroup/bg_box.png")} alt="" />
-                                                <h6>Tiers #{item.id}</h6>
+                                                <h6>Package #{item.id}</h6>
                                             </div>
                                             <div className="image">
                                                 <img src={item.img} alt="" />
@@ -42,7 +42,7 @@ function Tier(props) {
                                                 <h6 className="name"><Link to="/submit_igo">{item.title}</Link></h6>
                                                 <ul>
                                                     <li className="box bg_style">
-                                                        <p>Staking Requirements</p>
+                                                        <p>investment Requirements</p>
                                                         <p className="price">{item.unit1}</p>
                                                     </li>
                                                     <li className="box">
@@ -60,7 +60,7 @@ function Tier(props) {
                                                 </ul>
                                             </div>
                                             <div className="wrapper_button">
-                                                <Link to="/submit_igo" className="tf-button style1">
+                                                <Link to="/register" className="tf-button style1">
                                                     <span>get started</span>
                                                 </Link>
                                             </div>

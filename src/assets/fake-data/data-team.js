@@ -8,53 +8,57 @@ import img7 from '../images/common/team_7.png';
 import img8 from '../images/common/team_8.png';
 
 
+
+
+
 const dataTeam = [
+    
     {
         id: 1,
         img : img1,
-        name: 'Darrell Steward',
+        name: '[Member] ',
         unit: 'Senior Designer'
     }, 
     {
         id: 2,
         img : img2,
-        name: 'Kristin Watson',
+        name: '[Member] ' ,
         unit: 'Senior Designer'
     }, 
     {
         id: 3,
         img : img3,
-        name: 'Jacob Jones',
+        name: '[Member]',
         unit: 'Senior Designer'
     }, 
     {
         id: 4,
         img : img4,
-        name: 'Jane Cooper',
+        name: '[Member]',
         unit: 'Senior Designer'
     }, 
     {
         id: 5,
         img : img5,
-        name: 'Jenny Wilson',
+        name: '[Member]',
         unit: 'Senior Designer'
     }, 
     {
         id: 6,
         img : img6,
-        name: 'Dianne Russell',
+        name: '[Member]',
         unit: 'Senior Designer'
     }, 
     {
         id: 7,
         img : img7,
-        name: 'Devon Lane',
+        name: '[Member]',
         unit: 'Senior Designer'
     }, 
     {
         id: 8,
         img : img8,
-        name: 'Robert Fox',
+        name: '[Member]',
         unit: 'Senior Designer'
     }, 
 ]

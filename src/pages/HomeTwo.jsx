@@ -13,12 +13,9 @@ import dataPartner from '../assets/fake-data/data-partner';
 import Roadmap from '../components/roadmap';
 import dataRoadmap from '../assets/fake-data/data-roadmap';
 import Project6 from '../components/project/project_v6';
-
 import Partner2 from '../components/partner/index2';
 import Faqs from '../components/faqs';
 import dataFaq from '../assets/fake-data/data-faqs';
-import Token2 from '../components/token/Token2';
-import dataToken from '../assets/fake-data/data-token';
 import Team from '../components/team';
 import dataTeam from '../assets/fake-data/data-team';
 import CTA2 from '../components/cta/CTA2';
@@ -43,7 +40,6 @@ function HomeTwo(props) {
             
                 {<Project5 data={dataProject} />}
 
-                {<Token2 data={dataToken} />}
 
                 {<Tier data={dataTier} />}
 

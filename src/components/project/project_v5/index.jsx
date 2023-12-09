@@ -16,22 +16,22 @@ function Project5(props) {
     const [dataTab] = useState([
         {
             id: 1,
-            title: 'oncoming',
+            title: 'Year',
         },
         {
             id: 2,
-            title: 'Upcoming',
+            title: 'Month',
         },
         {
             id: 3,
-            title: 'ended',
+            title: 'News',
         },
 
     ]);
 
     const [dataTitle] = useState(
         {
-            title: 'projects we recommend',
+            title: 'Our top Investors',
         }
     )
     return (
@@ -94,7 +94,7 @@ function Project5(props) {
                                                                         <img className='shape' src={require ('../../../assets/images/common/shape.png')} alt="Risebot" />
                                                                     </div>
                                                                     <div className="label">
-                                                                        1ST Phase
+                                                                        Top users
                                                                     </div>
                                                                 </div>
                                                                 <div className="content">
@@ -102,15 +102,15 @@ function Project5(props) {
                                                                     <p className="desc">{item.desc}</p>
                                                                     <ul>
                                                                         <li>
-                                                                            <p className="text">Min allocation</p>
+                                                                            <p className="text"> Investment </p>
                                                                             <p className="price">{item.price_1}</p>
                                                                         </li>
                                                                         <li>
-                                                                            <p className="text">Maximum</p>
+                                                                            <p className="text">Packages</p>
                                                                             <p className="price">{item.price_2}</p>
                                                                         </li>
                                                                         <li>
-                                                                            <p className="text">Access</p>
+                                                                            <p className="text">Profit</p>
                                                                             <p className="price">{item.price_3}</p>
                                                                         </li>
                                                                     </ul>

@@ -48,7 +48,7 @@ const Header = () => {
                                 
                                 >
                                     <Link to={data.links}>{data.name}</Link>
-                                    {
+                                    {/* {
                                         data.namesub &&
                                         <ul className="sub-menu">
                                             {
@@ -57,14 +57,14 @@ const Header = () => {
                                                 ))
                                             }
                                         </ul>
-                                    }
+                                    } */}
                                     
                                 </li>
                             ))
                         }
                     </ul>
                 </nav>
-                <Button title='Connect' path='/' addclass='style1'/>  
+                <Button title='Sign in' path='/register' addclass='style1'/>  
                 <div className={`mobile-button ${menuActive ? 'active' : ''}`} onClick={handleMenuActive}><span></span></div>
             </div>
         </div> 

@@ -14,16 +14,16 @@ function CTA2(props) {
                         <div className="col-lg-8 col-md-12">
                             <div className="tf-title mb0 left" data-aos="fade-up" data-aos-duration="800">
                                 <h2 className="title mb8">
-                                    The Easiest way of Investing in Blockchain Games, NFTs and Metaverses
+                                    Explore the new Era of EA trading by [project]
                                 </h2>
                                 <p className="sub">
-                                    Lorem ipsum dolor sit amet consectetur
+                                    
                                 </p>
-                                <div className="wrap-btn">
+                                {/* <div className="wrap-btn">
                                     <Link to="/submit_igo" className="tf-button style2">
-                                        Apply Now
+                                        
                                     </Link>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-12">

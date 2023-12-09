@@ -14,12 +14,12 @@ function CTA(props) {
                         <div className="col-md-6">
                             <div className="tf-title left mt66" data-aos="fade-up" data-aos-duration="800">
                                 <h2 className="title">
-                                    Launch on Risebot
+                                    Launch on FX..
                                 </h2>
-                                <p className="sub">Full support in project incubation</p>
+                                <p className="sub">Full support by EA Trading</p>
                                 <div className="wrap-btn">
                                     <Link to="/submit_igo" className="tf-button style3">
-                                        Apply Now
+                                        Start Now
                                     </Link>
                                 </div>
                             </div>

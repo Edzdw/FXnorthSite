@@ -15,7 +15,7 @@ function PageFaqs(props) {
             {<PageTitle title='Faqs' />}
 
 
-            <section className="tf-section tf-faq">
+    {/* <section className="tf-section tf-faq">
         <div className="container">
             <div className="row"> 
                 <div className="col-md-12">
@@ -36,9 +36,9 @@ function PageFaqs(props) {
                 </div> 
             </div>
         </div>
-    </section>
+    </section> */}
 
-        {<Faq2 />}
+        {/* {<Faq2 />} */}
         
         {<Faqs data={dataFaq} />} 
 

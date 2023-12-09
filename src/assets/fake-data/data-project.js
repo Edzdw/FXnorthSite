@@ -55,7 +55,7 @@ const dataProject = [
     {
         id: 6, 
         img: img2,
-        title: "Zombie plant 2",
+        title: "Name1",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque",
         price_1: "100K",
         price_2: "23M",
@@ -64,7 +64,7 @@ const dataProject = [
     {
         id: 7, 
         img: img3,
-        title: "Zombie plant 2",
+        title: "Name 1",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque",
         price_1: "100K",
         price_2: "23M",
@@ -73,7 +73,7 @@ const dataProject = [
     {
         id: 8, 
         img: img4,
-        title: "Zombie plant 2",
+        title: "Name 2",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque",
         price_1: "100K",
         price_2: "23M",
@@ -82,7 +82,7 @@ const dataProject = [
     {
         id: 9, 
         img: img5,
-        title: "Iron Blade",
+        title: "Name 3",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque",
         price_1: "100K",
         price_2: "23M",
@@ -91,7 +91,7 @@ const dataProject = [
     {
         id: 10, 
         img: img2,
-        title: "Zombie plant 2",
+        title: "Name 4",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque",
         price_1: "100K",
         price_2: "23M",
@@ -122,7 +122,7 @@ const dataProject = [
     {
         id: 14, 
         img: img10,
-        title: "Garena Free Fire MAX",
+        title: "EUR/NZD",
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque',
         price: '332497.30 BUSD',
         price_1: '2889.18 BUSD',
@@ -132,7 +132,7 @@ const dataProject = [
     {
         id: 15, 
         img: img11,
-        title: "Oddmar",
+        title: "EUR/CHF",
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque',
         price: '332497.30 BUSD',
         price_1: '2889.18 BUSD',
@@ -141,7 +141,7 @@ const dataProject = [
     {
         id: 16, 
         img: img10,
-        title: "Garena Free Fire MAX",
+        title: "AUD/CAD",
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque',
         price: '332497.30 BUSD',
         price_1: '2889.18 BUSD',
@@ -151,7 +151,7 @@ const dataProject = [
     {
         id: 17, 
         img: img11,
-        title: "Oddmar",
+        title: "CAD/CHF",
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque',
         price: '332497.30 BUSD',
         price_1: '2889.18 BUSD',
@@ -160,16 +160,20 @@ const dataProject = [
     {
         id: 18, 
         img: img12,
-        title: "Modern Combat Versus",
+        title: "CAD/USD",
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque',
-        avt: avt1
+        price: '332497.30 BUSD',
+        price_1: '2889.18 BUSD',
+        price_2: '23M',
     }, 
     {
         id: 19, 
         img: img13,
-        title: "Modern Combat Versus",
+        title: "GBP/CHF",
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque',
-        avt: avt2
+        price: '332497.30 BUSD',
+        price_1: '2889.18 BUSD',
+        price_2: '23M',
     }, 
     {
         id: 20, 

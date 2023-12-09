@@ -39,8 +39,8 @@ function Banner (props) {
                                         <div className="col-md-12">
                                             <div className="box-slider">
                                                 <div className="content-box">
-                                                    <h1 className="title" >Become an early investor in the top Blockchain Games, NFTs and Metaverses</h1>
-                                                    <p className="sub-title">Risebot is the leading blockchain gaming launchpad with over 50 projects launched and the <br className="show-destop" /> highest average ROI in the industry</p>
+                                                    <h1 className="title" >Become an early investor with the new EA Trading bot</h1>
+                                                    <p className="sub-title">[project_name] is an Leading Forex EA Trading Stragety,  <br className="show-destop" />maximizing profits through advanced algorithms and automated strategies for efficient and successful trading</p>
                                                     <div className="wrap-btn">
                                                         <Link to="/faqs" className="tf-button style2">
                                                             HOW TO START

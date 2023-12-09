@@ -70,11 +70,11 @@ function Featured(props) {
 
                                 <div className="col-md-12 mt30">
                                     <p className="desc text-center mb20">
-                                        At Risebot, we bring projects with great potential that bring huge profits <br className="show-destop" />
+                                        At [project_name], we bring projects with great potential that bring huge profits <br className="show-destop" />
                                         auctor euismod magna etiam diam velit, ultrices vel feugiat a, varius quis felis. Integer tempor efficitur mollis
                                     </p>
                                     <div className="wrap-btn justify-content-center">
-                                        <Link to="/submit_igo" className="tf-button style1">
+                                        <Link to="#" className="tf-button style1">
                                             JOIN US
                                         </Link>
                                     </div>
