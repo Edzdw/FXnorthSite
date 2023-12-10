@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 import CTA from '../components/cta';
 import { Link } from 'react-router-dom';
@@ -35,11 +35,18 @@ function Login(props) {
                                             <input type="password" placeholder="Your password" required />
                                         </fieldset> 
                                     </div>
-                                    <Link to="/forgetPass" className="fogot-pass">Fogot password?</Link>
+
+                                    <div className ="password-section">
+                                        <Link to="/forgetPass" className="fogot-pass">Forgot Password</Link>
+                                        <Link to="/project_v1" className="resend-active">Resend Active Code</Link>
+
+
+                                    </div>
+
                                 </div> 
 
                                 <div className="wrap-btn">
-                                    <button type="submit" className="tf-button style2">
+                                    <button  type="submit" className="tf-button style2">
                                         Login
                                     </button>
                                 </div>

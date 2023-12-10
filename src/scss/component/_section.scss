@@ -1864,7 +1864,7 @@
 
 .project-info-form {
     &.form-login {
-        background-image: url('./../../assets/images/backgroup/bg_login.png');
+        // background-image: url('./../../assets/images/backgroup/bg_login.png');
         background-color: transparent;  
         border: none;
         position: relative;
@@ -1883,7 +1883,7 @@
             &.link {
                 margin-bottom: 0 !important;
                 height: 57px;
-                background-image: url('./../../assets/images/backgroup/bg_link_1.png'); 
+                // background-image: url('./../../assets/images/backgroup/bg_link_1.png'); 
                 background-repeat: no-repeat;
                 @include flex(center,center);
                 position: absolute;
@@ -1903,20 +1903,33 @@
             border-bottom: 1px solid rgba(255,255,255,0.1);
         }
         .fogot-pass {
-            position: absolute;
-            bottom: 30px;
-            right: 30px;
+            margin-top: 20px;
             color: $white;
             &:hover {
                 color: $color-hover;
             }
         }
+
+        .password-section {
+            display: flex;
+            flex-direction: row-reverse;}
+
+        .resend-active {
+            padding-right: 20px;
+            margin-right: 15px;
+            border-right: 1px solid white;
+            margin-top: 20px;
+            color:$white;
+            &:hover {
+                color: $color-hover;
+            }
+        }
         &.style2 {
-            background-image: url('./../../assets/images/backgroup/bg_login_2.png');
+            // background-image: url('./../../assets/images/backgroup/bg_login_2.png');
             padding: 20px 30px 35px;
             .title { 
                 &.link { 
-                    background-image: url('./../../assets/images/backgroup/bg_link_2.png'); 
+                    // background-image: url('./../../assets/images/backgroup/bg_link_2.png'); 
                     background-repeat: no-repeat;
                     @include flex(center,center);
                     position: absolute; 

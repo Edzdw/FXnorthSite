@@ -7,16 +7,19 @@ import Header from './components/header';
 import Footer from './components/footer';
 
 function App() {
+
   useEffect(() => {
+    document.title = "FXCMHoldings"
     AOS.init({
       duration : 2000
     }); 
   }, []);
+
   return (
     <>
-
+    
     <Header />
-
+    
     <Routes>
 
         {
