@@ -16,7 +16,7 @@ function Featured2(props) {
                 <div className="col-md-12">
                     <div className="tf-title" data-aos="fade-up" data-aos-duration="800">
                         <h2 className="title">
-                            We have outstanding technology <br className="show-destop" /> and features
+                            Explore our new bussiness model <br className="show-destop" /> with Hedging System
                         </h2>
                     </div>
                 </div>

@@ -15,7 +15,7 @@ function Step(props) {
                 <div className="col-md-6">
                     <div className="tf-title mb46 left" data-aos="fade-up" data-aos-duration="800">
                         <h2 className="title">
-                            Easy to join IGO <br className="show-destop" />
+                            Easy to join Us <br className="show-destop" />
                             with 3 steps
                         </h2>
                     </div>

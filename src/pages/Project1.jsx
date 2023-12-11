@@ -1,92 +1,88 @@
 import React, { useState } from 'react';
 
-import CTA from '../components/cta';
 import { Link } from 'react-router-dom';
-import { elements } from 'chart.js';
 
 
 function Project1(props) {
-    const [email,setEmail] = useState("")
-    
-       
 
-    const handleSubmitRegister = () => {
-        if(email === "") {
-            alert ("vui long nhap email:");
-            return;
-        }
+    // const handleSubmitSencActivate = () => {
 
-        else if (validateEmail(email) === "Invalid" ) {
-            alert ("Email khong dung dinh dang");
-            return;
-        }
+    //     var myHeaders = new Headers();
+    //     myHeaders.append("Content-Type", "application/json");
 
-        else {
-            changeText()
-        }
-    }
+    //     var raw = JSON.stringify({
+    //         "username": "leftside",
+    //         "password": "123",
+    //         "faCode": ""
+    //     });
 
+    //     var requestOptions = {
+    //         method: 'POST',
+    //         headers: myHeaders,
+    //         body: raw,
+    //         redirect: 'follow'
+    //     };
 
-    const validateEmail = (email) => {
-        return (/^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Za-z]+$/.test(email)) ? "Valid" : "Invalid";
-       
-    }
+    //     fetch("https://dae5-113-161-32-195.ngrok-free.app/api/user/validation", requestOptions)
+    //         .then(response => console.log(response))
+    //     // .then(result => console.log(result.text))
+    //     // .catch(error => console.log('error', error));
 
 
+    // }
 
 
-    
 
-    
+
+
+
     return (
-                    
-        
+
+
         <div className='inner-page'>
             <section className="page-title">
-            <div className="overlay"></div> 
-        </section>
+                <div className="overlay"></div>
+            </section>
 
-        <section className="tf-section project-info">
-        <div className="container"> 
-            <div className="row">
-                <div className="col-md-12">
-                    <form action="#">
-                        <div className="project-info-form forget-form">
-                            <h4 className="title">Resend Active Code</h4> 
-                            <p>enter your email address in the form below and we will send you further instructions on how to active your account</p>
-                            <div className="form-inner"> 
-                                <fieldset>
-                                    <label >
-                                        Email address
-                                    </label>
-                                    <input onChange={(e) => { setEmail(e.target.value) }} type="email" placeholder="Your email" required />
-                                    <input style={{marginTop: 20 , display: 'none'}}  type="email" placeholder="Your email" required />
+            <section className="tf-section project-info">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <form action="#">
+                                <div className="project-info-form forget-form">
+                                    <h4 className="title">Resend Active Code</h4>
+                                    <p>enter your email address in the form below and we will send you further instructions on how to active your account</p>
+                                    <div className="form-inner">
+                                        <fieldset>
+                                            <label >
+                                                Username
+                                            </label>
+                                            <input type="text" placeholder="Your username" required />
+                                        </fieldset>
+                                    </div>
+                                    <div className="bottom">
+                                        Nevermind.
+                                        <Link to="/login">Sign in</Link>
+                                    </div>
+                                </div>
 
-                                </fieldset> 
-                            </div>
-                            <div className="bottom">
-                                Nevermind. 
-                                <Link to="/login">Sign in</Link>
-                            </div>
-                        </div> 
-
-                        <div className="wrap-btn">
-                            <button onClick={() => {handleSubmitRegister()}}  type="submit" className="tf-button style1">
-                                Resend Code
-                            </button>
+                                <div className="wrap-btn">
+                                    <button type="submit" className="tf-button style1">
+                                        Send Code
+                                    </button>
+                                </div>
+                            </form>
                         </div>
-                    </form>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    
+            </section>
 
 
-            
 
-            
+
+
+
+
         </div>
     );
 }

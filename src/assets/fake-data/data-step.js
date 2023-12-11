@@ -6,19 +6,19 @@ const dataStep = [
     {
         id: 1,
         img: img1,
-        title: 'Submit KYC',
+        title: 'Registering your Account',
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at nunc non ligula suscipit tincidunt at sit amet nunc.'
     }, 
     {
         id: 2,
         img: img2,
-        title: 'Verify Wallet',
+        title: 'Choosing Packages',
         text: 'Etiam nisi libero, sodales sit amet justo ac, suscipit maximus metus. Semper nec interdum nec, faucibus id dui sit amet congue'
     }, 
     {
         id: 3,
         img: img3,
-        title: 'Start Staking',
+        title: 'Start Hedging',
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at nunc non ligula suscipit tincidunt at sit amet nunc.'
     }, 
 

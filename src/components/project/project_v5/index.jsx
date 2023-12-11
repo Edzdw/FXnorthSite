@@ -31,7 +31,7 @@ function Project5(props) {
 
     const [dataTitle] = useState(
         {
-            title: 'Our top Investors',
+            title: 'Our Investment Package',
         }
     )
     return (
@@ -85,7 +85,7 @@ function Project5(props) {
                                                       }}
                                                 >
                                                 {
-                                                    data.slice(6,10).map(item => (
+                                                    data.slice(6,16).map(item => (
                                                         <SwiperSlide key={item.id}>
                                                             <div className="project-box-style4">
                                                                 <div className="image">

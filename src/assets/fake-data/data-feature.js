@@ -34,36 +34,36 @@ const dataFeatured = [
         text: "Forex market with over 20 currency pairs, to ensuring user's investment strategies.",
     }, 
 
-    // {
-    //     id: 5,
-    //     img: img5,
-    //     title: 'A virtual world',
-    //     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at nunc non ligula suscipit tincidunt at sit amet nunc.',
-    // },
-    // {
-    //     id: 6,
-    //     img: img6,
-    //     title: 'Virtual reality',
-    //     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at nunc non ligula suscipit tincidunt at sit amet nunc.',
-    // },
-    // {
-    //     id: 7,
-    //     img: img7,
-    //     title: 'Other people',
-    //     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at nunc non ligula suscipit tincidunt at sit amet nunc.',
-    // },
-    // {
-    //     id: 8,
-    //     img: img8,
-    //     title: 'Persistence',
-    //     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at nunc non ligula suscipit tincidunt at sit amet nunc.',
-    // },
-    // {
-    //     id: 9,
-    //     img: img9,
-    //     title: 'Connect with the world',
-    //     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at nunc non ligula suscipit tincidunt at sit amet nunc.',
-    // },
+     {
+         id: 5,
+         img: img5,
+         title: 'Initialization',
+         text: 'Start with 16 trades across funds such as TFF, MFF,...',
+     },
+     {
+         id: 6,
+         img: img6,
+         title: 'Applying Stragety',
+         text: 'After round 1, all trading accounts receive 8 winning accounts.',
+     },
+     {
+         id: 7,
+         img: img7,
+         title: 'Round 2',
+         text: 'Utilize the 8 winning accounts, to generate 4 winning accounts.',
+     },
+     {
+         id: 8,
+         img: img8,
+         title: 'Live Round',
+         text: 'After round 2, use the 4 winning accounts to create 2 live accounts.',
+     },
+     {
+         id: 9,
+         img: img9,
+         title: 'FXCM Holdings',
+         text: 'Finally, use the live accounts for trading and generate profits.',
+     },
 
 ]
 

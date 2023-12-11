@@ -13,12 +13,12 @@ function CTA3(props) {
                     <div className="col-md-9">
                         <div className="tf-title left mb0" data-aos="fade-up" data-aos-duration="800">
                             <h2 className="title">
-                                become our potential partner
+                                Explore new Hedging Stragety
                             </h2>
-                            <p className="sub">Lorem ipsum dolor sit amet consectetur</p>
+                            <p className="sub">Join with us today  </p>
                             <div className="wrap-btn">
-                                <Link to="/project_submit" className="tf-button style3">
-                                    Apply Project
+                                <Link to="/register" className="tf-button style3">
+                                    Register
                                 </Link>
                             </div>
                         </div>

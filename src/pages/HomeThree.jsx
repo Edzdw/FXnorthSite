@@ -17,6 +17,8 @@ import dataStep from '../assets/fake-data/data-step';
 import Partner4 from '../components/partner/Partner4';
 import CTA from '../components/cta/cta_v2';
 
+import dataTier from '../assets/fake-data/data-tier';
+import Tier from '../components/tier';
 
 
 function HomeThree(props) {
@@ -26,19 +28,24 @@ function HomeThree(props) {
 
            {<Banner3 data={dataBanner} />}
 
-
-           {<ProjectV7 data={dataProject} />}
-
-            {<Featured2 data={dataFeatured} />}
-
-            {<CTA3 />}
-
             {<Project5 data={dataProject} />}
+           {<CTA3 />}
+           {<Featured2 data={dataFeatured} />} 
 
 
             {<Step data={dataStep} />}
-
             {<Partner4 data={dataPartner} />}
+
+
+
+
+
+
+           {/* {<Tier data={dataTier} />} */}
+
+
+           {/* {<ProjectV7 data={dataProject} />} */}
+
 
             {<Faqs data={dataFaq} />}  
             
