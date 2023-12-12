@@ -3,11 +3,11 @@ import img2 from '../images/common/project_1.png';
 import img3 from '../images/common/project_2.png';  
 import img4 from '../images/common/project_3.png';  
 import img5 from '../images/common/project_4.png';   
-
+import img6 from '../images/common/project_6.png';   
 import img7 from '../images/common/project_5.png'; 
-import img8 from '../images/common/project_6.png'; 
+import img8 from '../images/common/project_8.png'; 
 import img9 from '../images/common/project_7.png'; 
-import img10 from '../images/common/project_21.png'; 
+import img10 from '../images/common/project_8.png'; 
 import img11 from '../images/common/project_1.png'; 
 import img12 from '../images/common/project_22.jpg'; 
 import img13 from '../images/common/project_23.jpg'; 
@@ -90,7 +90,7 @@ const dataProject = [
     },  
     {
         id: 10, 
-        img: img2,
+        img: img6,
         title: "Name 4",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque",
         price_1: "100K",
@@ -108,7 +108,7 @@ const dataProject = [
     },  
     {
         id: 12, 
-        img: img8,
+        img: img2,
         title: "Name6",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque",
         price_1: "100K",
