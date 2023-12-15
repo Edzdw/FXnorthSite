@@ -32,7 +32,7 @@ function Partner3(props) {
                                     className='slider-12'
                          
                                     spaceBetween={0}
-                                    slidesPerView={10}
+                                    slidesPerView={9}
                           
                                 >
                                 {

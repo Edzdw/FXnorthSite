@@ -24,7 +24,7 @@ function Partner4(props) {
                 <div className="col-md-12">
                     <div className="partner-wrapper style3" data-aos="fade-up" data-aos-duration="800">
                         {
-                            data.slice(0,16).map(item => (
+                            data.slice(0,9).map(item => (
                                 <Link key={item.id} to="/" className="image">
                                     <img src={item.img} alt="" />
                                 </Link>
